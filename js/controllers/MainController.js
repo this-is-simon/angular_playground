@@ -27,10 +27,4 @@ app.controller('MainController', ['$scope', function($scope) {
     image: 'woodpigeon'
   	}
   ];
-  $scope.move = {
-    icon: 'img/move.jpg',
-    title: 'MOVE',
-    developer: 'MOVE, Inc.',
-    price: 0.99
-  };
 }])
