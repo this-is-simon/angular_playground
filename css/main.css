@@ -1,0 +1,18 @@
+
+
+.main-bird-container {
+  /* border: 3px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bird-image {
+  max-width: 75%;
+}
+
+.bird-card {
+  border: 1px dotted lightgrey;
+  padding: 20px;
+  max-width: 25%;
+}
