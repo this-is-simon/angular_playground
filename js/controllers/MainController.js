@@ -1,5 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.title = 'Angular Playground';
+  $scope.title = 'Coo';
+  $scope.subtitle = 'The Pigeon Shop';
   $scope.birds = [
     {
 	  name: 'Rock Dove',

@@ -8,8 +8,10 @@
   <body ng-app="myApp">
     <div ng-controller="MainController">
       <h1>{{ title }}</h1>
+      <h2>{{ subtitle }}</h2>
       <div ng-repeat="bird in birds">
         <bird-info info="bird"></bird-info>
+        <bird-add-to-coop></bird-add-to-coop>
       </div>
     </div>
 
@@ -21,6 +23,7 @@
 
   <!-- Directives -->
   <script src="js/directives/birdInfo.js"></script>
+  <script src="js/directives/birdAddToCoop.js"></script>
 
   </body>
 </html>
